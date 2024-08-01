@@ -1,0 +1,151 @@
+[
+    {
+        "auction_name": "Auction 2460",
+        "auction_category_info": "Online",
+        "auction_item_number": "1904 Items",
+        "auction_ends_date": "05/04/2024 20:00:00",
+        "view_items_url": "https://auction.primeauctions.com//Public/Auction/AuctionItems?AuctionId=z0FsHrs3UW31tHf01IDYAA%3d%3d&Title=xqWcn78SZbvHyUyI9OEiGA%3d%3d&AuctionTypes=0z4kdQhr4QDyJ%2f43PXsTLQ%3d%3d&image=BbAU1RWYbLmrURpvBpIbYbQ1hEpwuejeQD%2beZkNM6AMKdHH8D9pCIceFPZ988WI70dN2hrsQIQUDOPX1f%2f23SoHxsW62qqClfflndz3uJWaw3%2bVWiDogcVORtANdT%2bys&totalItems=OyRhNqEKuhDEg3%2biHT%2b%2fLw%3d%3d&viewtypeId=KHe6Qcx9tBs9J%2b%2fgnxeL3g%3d%3d&filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d",
+        "product_items": [            
+            {
+                "item_title": "Item - 1908",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=z0FsHrs3UW31tHf01IDYAA%3d%3d&pageNumber=api6a2zi4drqmyx%2bmL4bgg%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=5OKg9q%2b5xmw%2bo8V5T0fXRA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "King Size Mattress Pad Pillow Top Mattress Cover Quilted Fitted Mattress Protector Cotton 8-21\" Deep Pocket Cooling Topper (78x80 Inches, White) *New* Retail Price: $69.99",
+                "current_bid_amount": "3.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799013/61GRc9EwgL._AC_SL1500_-9fcbdee9-7a48-4066-930a-46cd535cb41e-350x350.jpg",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799013/1908-ecd75d9b-416c-424a-baf9-eb66553f76ee-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799013/1908_A-d533059a-5507-427c-b7a5-0f48abae99fe-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 1909",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=z0FsHrs3UW31tHf01IDYAA%3d%3d&pageNumber=api6a2zi4drqmyx%2bmL4bgg%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=cKXla%2bcxcaq%2beYelCXbDbg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Green Decore Vernal Odessa Machine Washable, Non Shedding, Non Slip Area Rug for Living Room, Bedroom, Dining Room, Hallway, Kitchen, Pet Friendly, Teal,Orange/Beige, 3' X 5' Feet *New* Retail Price: $31.50",
+                "current_bid_amount": "3.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799014/1909-b40163c8-0201-4ff4-87b7-f07590675cda-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799014/1909_A-4397e125-ae08-46b2-83e9-452d09a5e596-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 1910",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=z0FsHrs3UW31tHf01IDYAA%3d%3d&pageNumber=api6a2zi4drqmyx%2bmL4bgg%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=92WaYLTUFaFw63yYz2JWZA%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Capelli Sport FIFA World Cup Qatar 2022 Tournament Soccer Ball Souvenir Display, Officially Licensed Futbol for Youth and Adult Soccer Players, Metallic Black and Gold *New* Retail Price: $9.99",
+                "current_bid_amount": "3.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799015/1910-ec6e5810-4284-4a03-b1fd-e5647641e0fa-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30799015/1910_A-dcaf283c-3187-4c2d-acd1-263fa83ae0f8-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            }
+        ]
+    },
+    {
+        "auction_name": "Auction 2461",
+        "auction_category_info": "Online",
+        "auction_item_number": "2263 Items",
+        "auction_ends_date": "05/05/2024 20:00:00",
+        "view_items_url": "https://auction.primeauctions.com//Public/Auction/AuctionItems?AuctionId=h06FWXTqOXdFRO8k%2bC3HYw%3d%3d&Title=2jLiBMHvHsj3Yj5J2R9cvw%3d%3d&AuctionTypes=0z4kdQhr4QDyJ%2f43PXsTLQ%3d%3d&image=BbAU1RWYbLmrURpvBpIbYS3NLCH9UnRY1myU15Tr8sJl8ZA9mB8XlzWuQndzfNLUlWmiQ26lzUm0NLPhEf11f4ilLvlfOMbPywtcahzgaGDZTsHW3HRhR0%2bMEmuoKOKW&totalItems=JTkh9KZ8MGJ7uhPgrw9uaQ%3d%3d&viewtypeId=KHe6Qcx9tBs9J%2b%2fgnxeL3g%3d%3d&filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d",
+        "product_items": [
+            {
+                "item_title": "Item - 2289",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=h06FWXTqOXdFRO8k%2bC3HYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=Ij8LHQdIaMyBuwAemTGw1g%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Nisorpa 12 Pack Artificial Boxwood Hedge 10x10inch Green Faux Wall Panels Privacy Screen Greenery Wall Backdrop for Outdoor Indoor Garden Patio Backyard UV Protection *New* Retail Price: $59.99",
+                "current_bid_amount": "8.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801332/2289-1375d720-d6b1-4d4e-9da9-b9e36ee18afe-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801332/2289_A-1cfb2038-8141-480b-8c29-bad0bfe6938a-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801332/2289_B-90c5450e-01da-4b19-9624-3b2187dc43a3-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 2290",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=h06FWXTqOXdFRO8k%2bC3HYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=KGgihTQCO9K1vJDRHP1Fhw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Gyroor K2 Hoverboard Go Kart Attachment for Kids & Adults, Adjustable Frame Length Hoverboard Seat Attachment for 6.5\" 8\" 10\" Hoverboard Self Balancing Scooter *New* Retail Price: $109.65",
+                "current_bid_amount": "8.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801333/2290-2b2ff3c9-dc49-404b-83bf-368c5eee22df-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801333/2290_B-4e095553-21b2-4c4a-a2ce-466221ede90d-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801333/2290_A-67670241-5780-426e-bef7-8c6ffd2f7fd5-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 2291",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=h06FWXTqOXdFRO8k%2bC3HYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=7QkK9w7ZB4NCvrPcqtZv2g%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Marcy Foam Floor Tiles for Home Gym, Yoga Mat,Workout Equipment, or Child's Play Surface - Set of 6, (Black) by Stalwart *New* Retail Price: $25.67",
+                "current_bid_amount": "8.00",
+                "auction_status": "Ended",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801334/2291-3b4586a3-5014-43d5-ae40-b65b2eca33c8-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801334/2291_A-a4d04a72-329c-41b7-9142-64fc312d55f4-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30801334/2291_B-b6945e0c-2fda-45e6-b0aa-09df9df71a14-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            }
+        ]
+    },
+    {
+        "auction_name": "Auction 2462",
+        "auction_category_info": "Online",
+        "auction_item_number": "2238 Items",
+        "auction_ends_date": "05/06/2024 20:00:00",
+        "view_items_url": "https://auction.primeauctions.com//Public/Auction/AuctionItems?AuctionId=gjWJkRVw7MeXnwZBuviCYw%3d%3d&Title=klR4M3TcbIzuruVIXCyadw%3d%3d&AuctionTypes=0z4kdQhr4QDyJ%2f43PXsTLQ%3d%3d&image=BbAU1RWYbLmrURpvBpIbYfZQdxXOfdSbbHH1J1bPTreIQ6nB77wUHv%2fPRG5vhRo08TCCeWPl8O5RknWIMv2E%2foPqeVN%2bEhwzhP2BOEfyN2xkwfxGgIRHI92l4aA4dula&totalItems=GchnL2jbCbc0%2bjNRZb3lmw%3d%3d&viewtypeId=KHe6Qcx9tBs9J%2b%2fgnxeL3g%3d%3d&filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d&pageNumber=pf6Q%2bhJtdeleDd9FfYpy9w%3d%3d",
+        "product_items": [
+            {
+                "item_title": "Item - 2243",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=gjWJkRVw7MeXnwZBuviCYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=lfIyb01BYuIIDMXqiUFPcg%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "LED Bathroom Mirror 40 x 30 Inch Mirror with Light for Bathroom Wall Mounted Anti-Fog Lighted Mirror with 3000K/4500K/6000K Front and Backlit Lighted Mordern Makeup Mirror (Horizontal/Vertical) *New* Retail Price: $209.99",
+                "current_bid_amount": "0.00",
+                "auction_status": "",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804000/2243-faddf674-5036-4db0-b893-b1150d4d4fa2-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804000/2243_A-cd7aea15-098c-4a95-a704-e2d319fea0b2-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804000/2243_B-0e30661d-7981-44d5-b1f7-0f7ce2e42070-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804000/2243_C-d27fd7b5-57bd-43d4-bdb6-483101898cbe-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804000/2243_D-8991d3d6-e819-4903-a135-032998afbda8-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 2244",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=gjWJkRVw7MeXnwZBuviCYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=XX%2bCdKkqcl3xE4B2Srm8uw%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "FastCap Kaizen Foam Sheet for Tool Box Organizers and Storage - Perfect for Professional Contractors and Technicians - 30mm Thickness, 2' x 4' Sheet Size, Black *New* Retail Price: $24.99",
+                "current_bid_amount": "0.00",
+                "auction_status": "",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804001/2244-7368a9ac-120a-413d-9329-34ea085d273b-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804001/2244_A-bb62ba25-c386-4536-bf7c-d21ae5905b2e-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804001/2244_B-f5a800ec-8340-4043-a8d6-d6dfd2584bf8-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804001/2244_C-ffb49995-b42f-4203-aa69-b7aa7545c30c-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804001/2244_D-2a8c8311-5fa3-4b21-b98e-f4cc6c40d51d-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            },
+            {
+                "item_title": "Item - 2245",
+                "item_url": "https://auction.primeauctions.com/Public/Auction/AuctionItemDetail?AuctionId=gjWJkRVw7MeXnwZBuviCYw%3d%3d&pageNumber=3CEo%2b44%2fU60qwnNfWArTuw%3d%3d&pageSize=O5OaPaZE1XrTjGtTQItkaw%3d%3d&showFilter=iBcS%2b4ptjknZQtCojbueqQ%3d%3d&sortColumn=C9SY4KX74WJIILYqur0bmw%3d%3d&AuctionItemId=0EYULxRL5XURi%2fQrFsZEEQ%3d%3d&Filter=ITUHdU2DoqWvw89vAOs0Dw%3d%3d",
+                "product_detail": "Dolonm 65x22 Inch Full Length Mirror, Modern Design Standing Floor Mirror, Full Body Mirror for Living Room, Bedroom, Bathroom, Cloakroom, Hallway, Black(Aluminum Alloy Frame) *New, Metal Frame is Damaged a Bit on the Corner* Retail Price: $99.99",
+                "current_bid_amount": "0.00",
+                "auction_status": "",
+                "product_image_urls": [
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245-c14f921a-8e04-45d8-8ec9-8405c03d1fc5-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245_A-c8033809-64b4-4ffa-9bb3-b5e577312acf-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245_B-23f6c489-4f94-434d-8851-2021c9eef667-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245_C-05701c65-c282-4e38-929c-ea3dfce6f14b-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245_D-51612b91-7cd0-40ee-9b9c-3171f1eff497-350x350.JPG",
+                    "https://s3.amazonaws.com/prod.maxanet.auction/Pri459/Inventory30804002/2245_E-55ccab8b-2400-4fa1-975c-f4356f675f9d-350x350.JPG",
+                    "https://auction.primeauctions.com/Content/images/auction-detail-img/bidhistory.svg"
+                ]
+            }
+        ]
+    }
+]

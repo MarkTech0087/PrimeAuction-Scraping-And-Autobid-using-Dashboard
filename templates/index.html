@@ -1,0 +1,63 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Betting Dashboard</title>
+    <!-- Include the rest of your head section as before -->
+    <!-- ... -->
+</head>
+<body style="margin:0;">
+    <!-- ... (Rest of your navigation bar and static content) -->
+
+    <div style="padding: 10%; padding-top: 5%;">
+        <div style="display: flex; justify-content: space-between;">
+            <h1 style="margin-right: auto;">Betting Dashboard</h1>
+            <a href="/add-account" style="align-content:center; display: block; margin-left: auto;">Add Account</a>
+        </div>
+        <table>
+
+            <!-- ... (Static table headers) -->
+            <tr style="background-color: #000099; color:white; height: 80px; font-size: 1.5rem;">
+                <th>No</th>
+                <th>Account</th>
+                <th>Amount</th>
+                <th style="text-align:center;">Action</th>
+            </tr>
+            {% for idx, account_info in enumerate(accounts) %}
+                <tr style="height:40px;">
+                    <td>{{ idx + 1 }}</td>
+                    <td>{{ account_info['account'] }}</td>
+                    <td>{{ account_info['amount'] }}</td>
+                    <td style="padding: 0; width: 30%;">
+                        <!-- ... (Action buttons with event handlers) -->
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+
+    <!-- Modal implementation stays the same -->
+    <!-- ... -->
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 style="align-content:center; text-align:center;">Add Account</h2>
+            <form id="addAccountForm">
+                <label for="uname"><b>Username</b></label><br>
+                <input type="text" placeholder="Enter account name" id="account" name="account"><br><br>
+                <label for="psw"><b>Password</b></label><br>
+                <input type="password" placeholder="Enter Password" id="password" name="password"><br><br>
+                <label for="amount"><b>Amount</b></label><br>
+                <input type="number" placeholder="Enter Amount" id="amount" name="amount"><br><br>
+                <input style="background-color: #99ff99; font-weight:bold; cursor: pointer;"  type="submit" value="ADD ACCOUNT">
+            </form>
+        </div>
+    </div>
+    
+    <!-- JavaScript and AJAX calls should remain similar, replacing direct Python access with Flask endpoints -->
+    <!-- ... -->
+</body>
+</html>

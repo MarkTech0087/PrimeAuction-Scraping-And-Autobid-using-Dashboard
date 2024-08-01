@@ -1,0 +1,283 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #f0f0f0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #e0e0e0;
+      }
+      
+      .navbar {
+        background-color: #333; /* Dark background color */
+        overflow: hidden; /* Clear floats */
+        position: fixed; /* Fixed position */
+        top: 0; /* Positioning at the top */
+        width: 100%; /* Full-width */
+      }
+      
+      /* Navbar links */
+      .navbar a {
+        float: left; /* Float the links so they line up horizontally */
+        display: block; /* Block-level links will fill the full height of the navbar */
+        color: white; /* White link color */
+        text-align: center; /* Center align text */
+        padding: 14px 16px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+      }
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #ddd; /* Light grey background on mouse-over */
+        color: black; /* Black text color on mouse-over */
+      }
+      
+      /* Style for the active/current link */
+      .navbar a.active {
+        background-color: #04aa6d; /* Green background color for the active/current link */
+        color: white; /* White text color for the active/current link */
+      }
+      
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 3% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%; /* Could be more or less, depending on screen size */
+        max-width: 800px;
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        text-decoration: none;
+        cursor: pointer;
+        color: red;
+      }
+      
+      /* input style */
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+    </style>
+    <title>Auction Dashboard</title>
+    <link rel="icon" type="image/png" href="./static/logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      function runScript(item_url) {
+        console.log('Bid')
+        $.ajax({
+          url: '/run-script',
+          type: 'POST',
+          contentType: 'application/json;charset=UTF-8',
+          data: JSON.stringify({
+            "item_url": item_url
+          }),
+          success: function (response) {
+            console.log('Bid successfully to ' + item_url)
+          },
+          error: function (error) {
+            console.error(error)
+          }
+        })
+      }
+      
+      function delAccount(bet365_username) {
+        $.ajax({
+          url: '/delete-account',
+          type: 'POST',
+          contentType: 'application/json;charset=UTF-8',
+          data: JSON.stringify({ bet365_username: bet365_username }),
+          success: function (response) {
+            alert('Account Deleted Successfully!')
+            location.reload() // Reload the page to update the accounts table
+          },
+          error: function (error) {
+            console.error(error)
+          }
+        })
+      }
+    </script>
+  </head>
+  <body style="margin:0;">
+    // Navigation bar<div class="navbar">
+      <a href="/" class="active">Home</a>
+      <a href="/dashboard">Dashboard</a>
+    </div>
+
+    <div style="padding: 30px 0 0 30px; margin-top: 30px;">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="logo" width="100" />
+    </div>
+
+    <div style="padding: 10%; padding-top: 1%;">
+      <div style="display: flex; justify-content: space-between;">
+        <h1 style="margin-right: auto; color: green; font-size: 4rem;">▓▒░ 𝗔𝘂𝗰𝘁𝗶𝗼𝗻 𝗗𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱 ░▒▓</h1>
+        <!-- <a onclick="openAddModal();" style="align-content:center; display: block; margin-left: auto; text-decoration:none; cursor: pointer;"><span style="background-color: #008000; padding: 12px; color: white; font-size: 16px;"> <img src="{{ url_for('static', filename='plus.svg') }}" alt="Bet365 App" width="30" /> Add Account</span></a> -->
+        <form id="searchKey">
+          <div style="display: flex; margin-top: 15px;">
+            <input style="width:70%;" type="text" id="keyword" name="query" placeholder="Search..." />
+            <input style="width:30%; align-content:center; display: block; margin-left: auto; text-decoration:none; cursor: pointer;" type="submit" value="Search" />
+          </div>
+        </form>
+      </div>
+      <br />
+      <table>
+        <tr style="background-color: #008000; color:white; height: 80px; font-size: 2rem;">
+          <th width="3%">No</th>
+          <th width="10%">Auction Name</th>
+          <th width="3%">Sel</th>
+          <th width="10%">Auction Item</th>
+          <th>Details</th>
+          <th style="font-size:13px;" width="5%">Current Bid</th>
+          <th style="font-size:13px;" width="5%">Auction Status</th>
+          <th style="text-align:center;">Action</th>
+        </tr>
+        {{ rows_html|safe }}
+      </table>
+    </div>
+
+    <script>
+      function openAddModal() {
+        // Get the add modal
+        var modal = document.getElementById('addModal')
+      
+        // Open the modal
+        modal.style.display = 'block'
+      
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName('close')[4]
+        console.log(span)
+      
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+          modal.style.display = 'none'
+        }
+      
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = 'none'
+          }
+        }
+      
+        // Form submission handling
+        document.getElementById('addAccountForm').onsubmit = function (event) {
+          event.preventDefault()
+          var bet365_username = document.getElementById('365account').value
+          var bet365_password = document.getElementById('365password').value
+          var balance = document.getElementById('balance').value
+          var rebel_email = document.getElementById('rebel-account').value
+          var rebel_password = document.getElementById('rebel-password').value
+          var bet365_url = document.getElementById('365url').value
+          var bet365_country = document.getElementById('365country').value
+          var hour_to_start_placing_bets_at = document.getElementById('start_time').value
+          var hour_to_stop_placing_bets_at = document.getElementById('stop_time').value
+          var minimum_value_percentage = document.getElementById('minimum_value_percentage').value
+          var maximum_value_percentage = document.getElementById('maximum_value_percentage').value
+          var max_stake = document.getElementById('max_stake').value
+          var dolphin_profile_id = document.getElementById('dolphin_profile_id').value
+          var incogniton_profile_id = document.getElementById('incogniton_profile_id').value
+          var multilogin_profile_id = document.getElementById('multilogin_profile_id').value
+      
+          console.log(bet365_username, bet365_password, balance, rebel_email, rebel_password, bet365_url, bet365_country)
+      
+          // AJAX request to Flask to add the account
+          $.ajax({
+            url: '/add-account',
+            type: 'POST',
+            contentType: 'application/json;charset=UTF-8',
+            data: JSON.stringify({
+              bet365_username: bet365_username,
+              bet365_password: bet365_password,
+              balance: balance,
+              rebel_email: rebel_email,
+              rebel_password: rebel_password,
+              bet365_url: bet365_url,
+              bet365_country: bet365_country,
+              hour_to_start_placing_bets_at: hour_to_start_placing_bets_at,
+              hour_to_stop_placing_bets_at: hour_to_stop_placing_bets_at,
+              minimum_value_percentage: minimum_value_percentage,
+              maximum_value_percentage: maximum_value_percentage,
+              max_stake: max_stake,
+              dolphin_profile_id: dolphin_profile_id,
+              incogniton_profile_id: incogniton_profile_id,
+              multilogin_profile_id: multilogin_profile_id
+            }),
+            success: function (response) {
+              modal.style.display = 'none'
+              location.reload() // Reload the page to update the accounts table
+            },
+            error: function (error) {
+              console.error(error)
+            }
+          })
+        }
+      }
+      
+      document.getElementById('searchKey').addEventListener('submit', function (event) {
+        event.preventDefault()
+        var keyword = document.getElementById('keyword').value
+        const newUrl = window.location.origin + '/?keyword=' + keyword
+        history.pushState(null, '', newUrl)
+      
+        $.ajax({
+          url: '/?keyword=' + keyword,
+          type: 'GET',
+          success: function (response) {
+            location.reload()
+          },
+          error: function (error) {
+            console.error(error)
+          }
+        })
+      })
+    </script>
+  </body>
+</html>
